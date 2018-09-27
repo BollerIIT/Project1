@@ -394,7 +394,7 @@ template {
 /* Beginning of my CSS */
 
 body{
-
+    font-family: 'Mali', cursive;
 }
 
 #myForm legend {
@@ -408,6 +408,7 @@ body{
     border: 3px solid green;
 	background-color: #000;
 	color: #fff;
+	font-family: 'Chicle', cursive;
 }
 
   #myForm{
@@ -415,11 +416,23 @@ body{
     text-align: center;
     padding: 3%;
     border-radius: 1.3em;
-   /* background-color:#EBEBEB; */
    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feccb1+0,f17432+43,ea5507+69,fb955e+100 */
-background: #feccb1; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #feccb1 0%, #f17432 43%, #ea5507 69%, #fb955e 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, #feccb1 0%,#f17432 43%,#ea5507 69%,#fb955e 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, #feccb1 0%,#f17432 43%,#ea5507 69%,#fb955e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+   background: #feccb1; /* Old browsers */
+   background: -moz-linear-gradient(-45deg, #feccb1 0%, #f17432 43%, #ea5507 69%, #fb955e 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(-45deg, #feccb1 0%,#f17432 43%,#ea5507 69%,#fb955e 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(135deg, #feccb1 0%,#f17432 43%,#ea5507 69%,#fb955e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   }
+  
+    label {
+    display: block;
+    vertical-align: middle;
+  }
+
+  input {
+    font-family: 'Mali', cursive;
+    width: auto;
+    border-radius: 5px;
+    border: 1px solid #999;
+    width: 100%;
+      }
