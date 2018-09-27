@@ -395,6 +395,7 @@ template {
 
 body{
     font-family: 'Mali', cursive;
+	text-align: center;
 }
 
 #myForm legend {
