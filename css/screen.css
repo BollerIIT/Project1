@@ -406,6 +406,11 @@ body{
     font-family: 'Mali', cursive;
 	text-align: center;
 }
+fieldset{
+    width: 40%;
+
+    margin: auto;
+}
 
 #myForm legend {
     display: block;
