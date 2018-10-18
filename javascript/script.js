@@ -21,7 +21,3 @@ Basic form data collection
 	};
 		
 		
-
-	
-	document.getElementById('submit').addEventListener('click', submitBtnHandler, false);
-	
