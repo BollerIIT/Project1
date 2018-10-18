@@ -23,5 +23,5 @@ Basic form data collection
 		
 
 	
-	document.getElementById('submit).addEventListener('click', runBtnHandler, false);
+	document.getElementById('submit').addEventListener('click', runBtnHandler, false);
 	
