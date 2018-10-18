@@ -394,7 +394,7 @@ template {
 /* Beginning of my CSS */
 
 html {
-  background-image: url(../images/xanathar.jpg); /* Free image from http://dnd.wizards.com/articles/media-resources#submenu-page */ 
+  /*background-image: url(../images/xanathar.jpg); /* Free image from http://dnd.wizards.com/articles/media-resources#submenu-page */ 
   background-color: #cccccc; /* Used if the image is unavailable */
   height: 500px; /* You must set a specified height */
   background-position: center; /* Center the image */
