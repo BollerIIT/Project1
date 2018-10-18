@@ -394,7 +394,7 @@ template {
 /* Beginning of my CSS */
 
 html {
-  background-image: url("Web/images/xanathar.jpg"); /* Free image from http://dnd.wizards.com/articles/media-resources#submenu-page */
+  background-image: url(../images/xanathar.jpg); /* Free image from http://dnd.wizards.com/articles/media-resources#submenu-page */ 
   background-color: #cccccc; /* Used if the image is unavailable */
   height: 500px; /* You must set a specified height */
   background-position: center; /* Center the image */
@@ -426,12 +426,15 @@ body{
     text-align: center;
     padding: 3%;
     border-radius: 1.3em;
-   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feccb1+0,f17432+43,ea5507+69,fb955e+100 */
-   background: #feccb1; /* Old browsers */
-   background: -moz-linear-gradient(-45deg, #feccb1 0%, #f17432 43%, #ea5507 69%, #fb955e 100%); /* FF3.6-15 */
-   background: -webkit-linear-gradient(-45deg, #feccb1 0%,#f17432 43%,#ea5507 69%,#fb955e 100%); /* Chrome10-25,Safari5.1-6 */
-   background: linear-gradient(135deg, #feccb1 0%,#f17432 43%,#ea5507 69%,#fb955e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feccb1+0,f17432+43,ea5507+69,fb955e+100 */
+    background: #feccb1; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #feccb1 0%, #f17432 43%, #ea5507 69%, #fb955e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #feccb1 0%,#f17432 43%,#ea5507 69%,#fb955e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #feccb1 0%,#f17432 43%,#ea5507 69%,#fb955e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    margin: auto;
+    line-height: 1.8;
   }
   #head{
     display: inline-grid;
