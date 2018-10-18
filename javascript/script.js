@@ -1,5 +1,8 @@
-
-
+/*
+Thomas Boller
+Basic form data collection
+10/17/2018
+*/
 
 	var subButton = document.getElementById('submit');
 	
@@ -15,7 +18,7 @@
 		
 		//Alerts the user that their data was submited
 		alert("Your information was received, someone will contact you shortly");
-		
+	};
 		
 		
 
