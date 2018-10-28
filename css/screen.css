@@ -416,7 +416,7 @@ p { font-size: 11px }
 small { font-size: 9px }
 
 input[type="text"] {
-    width: 100%;
+    width: 400px;
 }
 
 body{
@@ -506,7 +506,7 @@ small { font-size: 7px }
 }
 	  
 input[type="text"] {
-    width: 100%;
+    width: 100px;
 }
 
 
