@@ -539,14 +539,14 @@ small { font-size: 7px }
 
 fieldset{
     width: 90%;
-    margin: auto;
+
 }
 	  
 form, label,
 legend {
   text-align: center;
   width: 100%;
-  height: auto;
+  height: 100%;
 }	  
 #sizedtextboxes {width: 60%; height: 20px}
 
