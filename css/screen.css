@@ -415,7 +415,7 @@ p { font-size: 11px }
  
 small { font-size: 9px }
 
-#sizedtextboxes {width: 400px; height: 20px}
+.sizedtextboxes {width: 400px; height: 20px}
 
 body{
     font-family: 'Mali', cursive, Utopia, "Liberation Serif", Sans-Serif;
@@ -512,7 +512,7 @@ form, fieldset {
 }
   
 	  
-#sizedtextboxes {width: 80%}  
+.sizedtextboxes {width: 80%}  
 
 }
 	  
@@ -553,7 +553,7 @@ label {
 float: left;
 text-align: right; }
 
-#sizedtextboxes {
+.sizedtextboxes {
 	width: 60%; height: 20px;
 	float: right;
 	}

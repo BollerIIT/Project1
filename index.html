@@ -19,21 +19,21 @@
     By clicking "Sign-Up" you agree to our terms of service.</p>
   </div>
   <!-- changed up to allow for use of javascritpt -->
-  <form onsubmit="submitBtnHandler()" id="myForm" method = "get" action="#null" autocomplete="on">
+  <form id="myForm" method = "get" action="#null" autocomplete="on" onsubmit="submitBtnHandler()">
     <fieldset>
       <legend>Dungeons & Dragons Sign-up:</legend>
       <div id="formContainer">
         <div id="name">
-          Full Name: <input type="text" placeholder="Your Name" id="sizedtextboxes" required />
+          Full Name: <input type="text" placeholder="Your Name" class="sizedtextboxes" required />
         </div>
         <div id="email">
-          Email: <input type="email" placeholder="myname@email.com" id="sizedtextboxes" required />
+          Email: <input type="email" placeholder="myname@email.com" class="sizedtextboxes" required />
         </div>
         <div id="pNumber">
-          Phone Number: <input type="tel" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="sizedtextboxes" required />
+          Phone Number: <input type="tel" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="sizedtextboxes" required />
         </div>
         <div id="dob">
-          Date of birth: <input type="date" id="sizedtextboxes" required />
+          Date of birth: <input type="date" class="sizedtextboxes" required />
         </div>
         <div id="submitBtn" >
           <button class="submitBtn" id="submit" type="submit">Sign-Up</button>
