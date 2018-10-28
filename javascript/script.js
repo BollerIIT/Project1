@@ -14,18 +14,16 @@ Basic form data collection
 		//stores the form data for use
 		var name = document.getElementById('name');
 		var email = document.getElementById('email');
-		console.log(email);
 		var phone = document.getElementById('pNumber');
 		var birthDat = document.getElementById('dob');
-		alert(email);
 		
 var regexEmail = /\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/;
 		//var email = document.getElementById('email');
 
 		if (regexEmail.test(email.value)) {
-			alert("It's Okay")
+			submitForm();
 		} else {
-			alert("Not Okay")
+			alert("You need to enter a valid email address")
 
 		}
 
