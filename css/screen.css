@@ -415,9 +415,7 @@ p { font-size: 11px }
  
 small { font-size: 9px }
 
-input[type="text"] {
-    width: 400px;
-}
+#sizedtextboxes {width: 200px; height: 20px}
 
 body{
     font-family: 'Mali', cursive, Utopia, "Liberation Serif", Sans-Serif;
@@ -499,13 +497,13 @@ small { font-size: 7px }
 	  
 #myForm {
 	padding: 5%;
-    margin: auto;
+	margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+	margin-bottom: 5%;
 }
 	  
-input[type="text"] {
-    width: 300px;
-}
-
+#sizedtextboxes {width: 100px; height: 20px}
 
 }
 
