@@ -478,9 +478,9 @@ fieldset{
 
       }
  	  
-@media screen and (min-width: 320px) and (max-width:580px) {
+@media screen and (min-width: 480px) and (max-width:720px) {
 		  
-/* For mobiles */
+/* For mobiles landscape */
 
 form {
   margin: 0 0 5px 0;
