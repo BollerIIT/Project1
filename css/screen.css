@@ -504,9 +504,9 @@ p { font-size: 9px }
  
 small { font-size: 7px }
 
-label {
+form label {
   width: 100%;
-  text-align: center;
+  display: block;
 }
 	  
 #myForm {
