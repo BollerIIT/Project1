@@ -424,7 +424,7 @@ body{
 	text-align: center;
 }
 fieldset{
-    width: 40%;
+    width: 60%;
 
     margin: auto;
 }
@@ -499,10 +499,7 @@ small { font-size: 7px }
 	  
 #myForm {
 	padding: 5%;
-	margin-top: 2%;
-    margin-bottom: 2%;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin: auto;
 }
 	  
 input[type="text"] {
