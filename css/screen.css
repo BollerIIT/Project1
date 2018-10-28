@@ -548,7 +548,12 @@ legend {
   width: 100%;
   height: 100%;
 }	  
-#sizedtextboxes {width: 60%; height: 20px}
+label { float: left }
+
+#sizedtextboxes {
+	width: 60%; height: 20px;
+	float: right;
+	}
 
 }
 
