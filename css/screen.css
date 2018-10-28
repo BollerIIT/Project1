@@ -482,6 +482,11 @@ fieldset{
 		  
 /* For mobiles */
 
+form {
+  margin: 0 0 5px 0;
+  width: 100%;
+  }
+  
 fieldset{
     width: 100%;
     margin: auto;
