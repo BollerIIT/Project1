@@ -481,6 +481,11 @@ fieldset{
 @media screen and (min-width: 320px) and (max-width:580px) {
 		  
 /* For mobiles */
+
+fieldset{
+    width: 100%;
+    margin: auto;
+}
 		  
 h1 { font-size: 24px }
 h2 { 
