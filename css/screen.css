@@ -508,7 +508,7 @@ label {
 }
 
 form, fieldset {
-  width: 100%;
+  width: 80%;
 }
   
 	  
@@ -536,6 +536,24 @@ h4 { font-size: 11px }
 p { font-size: 9px }
  
 small { font-size: 7px }
+
+form {
+  margin: 0 0 5px 0;
+  width: 100%;
+}
+form, label,
+legend {
+ width: 100%;
+}
+  
+label {
+  width: 100%;
+  text-align: center;
+}
+
+form, fieldset {
+  width: 80%;
+}
 	  
 #sizedtextboxes {width: 60%; height: 20px}
 
