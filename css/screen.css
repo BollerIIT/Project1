@@ -478,9 +478,9 @@ fieldset{
 
       }
  	  
-@media screen and (min-width: 375px) and (max-width:720px) and (orientation: portrait){	  
+@media screen and (max-width:480px) and (orientation: portrait){	  
 
-html {
+body {
 background-color: lightblue;
   }
 }
@@ -489,7 +489,7 @@ background-color: lightblue;
 		  
 /* For mobiles landscape */
 
-html {
+body {
   /*background-image: url(../images/xanathar.jpg); /* Free image from http://dnd.wizards.com/articles/media-resources#submenu-page */ 
   background-color: #FFA500; /* Used if the image is unavailable */
   }
