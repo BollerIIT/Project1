@@ -415,6 +415,10 @@ p { font-size: 11px }
  
 small { font-size: 9px }
 
+input[type="text"] {
+    width: 50%;
+}
+
 body{
     font-family: 'Mali', cursive, Utopia, "Liberation Serif", Sans-Serif;
 	text-align: center;
@@ -477,30 +481,34 @@ fieldset{
 
       }
  	  
-	@media screen and (min-width: 320px) and (max-width:580px) {
+@media screen and (min-width: 320px) and (max-width:580px) {
 		  
-	/* For mobiles */
+/* For mobiles */
 		  
-	h1 { font-size: 24px }
-	h2 { 
+h1 { font-size: 24px }
+h2 { 
 	font-size: 18px;
 	margin-top: 5%;
-	}
-	h3 { font-size: 14px }
-	h4 { font-size: 11px }
+}
+h3 { font-size: 14px }
+h4 { font-size: 11px }
  
-	p { font-size: 9px }
+p { font-size: 9px }
  
-	small { font-size: 7px }
+small { font-size: 7px }
 	  
-	#myForm {
+#myForm {
 	padding: 5%;
 	margin-top: 2%;
     margin-bottom: 2%;
     margin-right: 10%;
     margin-left: 10%;
-	  }
+}
+	  
+input[type="text"] {
+    width: 200px;
+}
 
 
-    }
+}
 
