@@ -536,11 +536,17 @@ h4 { font-size: 11px }
 p { font-size: 9px }
  
 small { font-size: 7px }
+
+fieldset{
+    width: 90%;
+    margin: auto;
+}
 	  
 form, label,
 legend {
   text-align: center;
   width: 100%;
+  height: auto;
 }	  
 #sizedtextboxes {width: 60%; height: 20px}
 
