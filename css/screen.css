@@ -485,7 +485,7 @@ fieldset{
 form {
   margin: 0 0 5px 0;
   width: 100%;
-  }
+}
   
 fieldset{
     width: 100%;
@@ -503,6 +503,11 @@ h4 { font-size: 11px }
 p { font-size: 9px }
  
 small { font-size: 7px }
+
+label {
+  width: 100%;
+  text-align: center;
+}
 	  
 #myForm {
 	padding: 3%;
