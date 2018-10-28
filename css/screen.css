@@ -391,7 +391,7 @@ template {
 }
 
 
-/* Beginning of my CSS */
+/* -------------------------------------------- Beginning of my CSS ------------------------------------------- */
 
 html {
   /*background-image: url(../images/xanathar.jpg); /* Free image from http://dnd.wizards.com/articles/media-resources#submenu-page */ 
@@ -406,29 +406,17 @@ html {
 	Using the Classic Modular Scale by Robert Bringhurst from The Elements of Typographic Style
 */
 
-h1 {
-	font-size: 36px 
-	}
-h2 {
-	font-size: 24px 
-	}
-h3 {
-	font-size: 18px 
-	}
-h4 {
-	font-size: 14px 
-	}
+h1 { font-size: 36px }
+h2 { font-size: 24px }
+h3 { font-size: 18px }
+h4 { font-size: 14px }
  
-p {
-	font-size: 11px 
-	}
+p { font-size: 11px }
  
-small {
-	font-size: 9px 
-	}
+small { font-size: 9px }
 
 body{
-    font-family: 'Mali', cursive;
+    font-family: 'Mali', cursive, Utopia, "Liberation Serif", Sans-Serif;
 	text-align: center;
 }
 fieldset{
@@ -448,7 +436,7 @@ fieldset{
     border: 3px solid green;
 	background-color: #000;
 	color: #fff;
-	font-family: 'Chicle', cursive;
+	font-family: 'Chicle', cursive, Arial, Sans-Serif;
 }
 
   #myForm{
@@ -480,7 +468,7 @@ fieldset{
   }
 
   input {
-    font-family: 'Mali', cursive;
+    font-family: 'Mali', cursive, Utopia, "Liberation Serif", Sans-Serif;
     width: auto;
     border-radius: 5px;
     border: 1px solid #999;
