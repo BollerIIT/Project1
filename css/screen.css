@@ -402,6 +402,31 @@ html {
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
+/*
+	Using the Classic Modular Scale by Robert Bringhurst from The Elements of Typographic Style
+*/
+
+h1 {
+	font-size: 36px 
+	}
+h2 {
+	font-size: 24px 
+	}
+h3 {
+	font-size: 18px 
+	}
+h4 {
+	font-size: 14px 
+	}
+ 
+p {
+	font-size: 11px 
+	}
+ 
+small {
+	font-size: 9px 
+	}
+
 body{
     font-family: 'Mali', cursive;
 	text-align: center;
