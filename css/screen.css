@@ -476,4 +476,23 @@ fieldset{
 	    background-color:#EBEBEB;
 
       }
+ 	  
+	@media screen and (min-width: 320px) and (max-width:580px) {
+		  
+		  /* For mobiles */
+		  
+	  h1 { font-size: 24px }
+	  h2 { 
+	  font-size: 18px;
+	  margin-top: 5%;
+	  }
+	  h3 { font-size: 14px }
+	  h4 { font-size: 11px }
+ 
+	  p { font-size: 9px }
+ 
+	  small { font-size: 7px }
+
+
+    }
 
